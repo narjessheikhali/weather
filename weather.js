@@ -40,7 +40,7 @@ function getIcon(weMain) {
             icon = `${weMain}.svg`;
             break;
         case 'Clear':
-            const DayOrNight = getDayOrNight();
+            const DayOrNight = getDayOrNight;
             icon = `${weMain}-${DayOrNight}.svg`;
             break;
         case 'Clouds':
